@@ -1,0 +1,8 @@
+/bin
+*.idea
+*.class
+*.iml
+.classpath
+.project
+.settings/org.eclipse.jdt.core.prefs
+src/computer_test/.DS_Store
