@@ -1,12 +1,13 @@
 package computer_test.c;
 
 import java.util.Scanner;
+
 /**
  * 
  * @author river
- * 按照公式答案錯
+ *         按照公式答案錯
  */
-public class P2Q2 {
+public class P02Q2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

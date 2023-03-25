@@ -2,7 +2,7 @@ package computer_test.c;
 
 import java.util.Scanner;
 
-public class P1Q1 {
+public class P01Q1 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); // 建立 Scanner 物件

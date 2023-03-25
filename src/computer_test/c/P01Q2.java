@@ -2,7 +2,7 @@ package computer_test.c;
 
 import java.util.Scanner;
 
-public class P1Q2 {
+public class P01Q2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
