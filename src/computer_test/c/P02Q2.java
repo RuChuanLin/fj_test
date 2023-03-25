@@ -3,9 +3,7 @@ package computer_test.c;
 import java.util.Scanner;
 
 /**
- * 
- * @author river
- *         按照公式答案錯
+ *
  */
 public class P02Q2 {
 
@@ -26,7 +24,7 @@ public class P02Q2 {
 		int p = Integer.parseInt(strs[0]);
 		double r = Double.parseDouble(strs[1]);
 		int t = Integer.parseInt(strs[2]);
-		double f = p * Math.pow(1 + r / 12, t);
+		double f = p * Math.pow(1 + r / 1200, 12 * t);
 		System.out.println(Math.round(f));
 	}
 
