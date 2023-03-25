@@ -49,6 +49,13 @@ public class P1Q1 {
 	 * 
 	 * 最後，回傳值是 void ，代表該方法不回傳任何東西。
 	 */
+
+	/**
+	 * 1. 每組輸入會有3個數字，如果3個數字相同印出 Yes，否則印出 No
+	 * 2. 可以直接撿查：第1個數字和第2個數字且第2個數字和第3個數字是否相等
+	 * 2.1 如果條件成立，印出 Yes
+	 * 2.2 否則印出 No
+	 */
 	static void fn(String s) {
 		String[] strs = s.split("\\s+"); // "\\s"是寫空白鍵的比較正式的寫法，"\\s+"代表可以一次 match 多個空白鍵（對解題不重要）
 		if (strs[0].equals(strs[1]) && strs[1].equals(strs[2])) {
